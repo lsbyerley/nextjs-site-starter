@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders and matches snapshot 1`] = `
+<div
+  class="py-6 mt-12 lg:mt-18 sm:pb-36 sm:py-12"
+>
+  <div
+    class="max-w-4xl px-4 mx-auto text-gray-800 dark:text-white"
+  >
+    <div
+      class="pb-8 mb-2 border-t-2 border-gray-300 dark:border-white-300"
+    />
+    <div
+      class="flex flex-col items-center justify-between lg:flex-row"
+    >
+      <p>
+        Built with Next.js, Tailwind and Vercel
+      </p>
+      <div
+        class="flex flex-wrap pt-2 space-x-2 font-medium sm:space-x-4 lg:pt-0"
+      >
+        <a
+          class="transition-colors hover:text-yellow-500"
+          href="/about"
+        >
+          About
+        </a>
+        <a
+          class="transition-colors hover:text-yellow-500"
+          href="#"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Twitter
+        </a>
+        <a
+          class="transition-colors hover:text-yellow-500"
+          href="#"
+          rel="noreferrer"
+          target="_blank"
+        >
+          LinkedIn
+        </a>
+        <a
+          class="transition-colors hover:text-yellow-500"
+          href="#"
+          rel="noreferrer"
+          target="_blank"
+        >
+          GitHub
+        </a>
+        <a
+          class="transition-colors hover:text-yellow-500"
+          href="#"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Hashnode
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

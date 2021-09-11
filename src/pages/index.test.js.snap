@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders and matches snapshot 1`] = `
+<div
+  class="space-y-14 lg:space-y-24"
+>
+  <main
+    class="max-w-4xl mx-auto mt-16"
+  >
+    <div
+      class="container px-4 mx-auto"
+    >
+      <div
+        class="flex flex-col-reverse text-center lg:space-x-5 lg:flex lg:flex-row item-center lg:-mx-4 lg:text-left"
+      >
+        <div
+          class="lg:px-4 lg:mt-12 "
+        >
+          <h1
+            class="text-2xl font-bold text-gray-900 lg:text-5xl dark:text-white"
+          >
+            Hey there,
+          </h1>
+          <div
+            class="mt-6 text-gray-800 dark:text-white"
+          >
+            <p
+              class="mb-4"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex-shrink-0 mb-10 lg:mt-12 lg:px-4"
+        >
+          <div
+            role="image"
+          >
+            {"src":"test-file-stub","alt":"Profile","priority":true,"className":"rounded-full","width":250,"height":250,"placeholder":"blur"}
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+`;
