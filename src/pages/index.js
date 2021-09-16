@@ -4,13 +4,13 @@ import profile from '../../public/jacksonhole.jpg';
 
 const Home = () => {
   return (
-    <div className='space-y-14 lg:space-y-24'>
+    <main className='space-y-14 lg:space-y-24'>
       <Head>
         <title>My App Home Page</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main className='max-w-4xl mx-auto mt-16'>
+      <div className='max-w-4xl mx-auto mt-16'>
         <div className='container px-4 mx-auto'>
           <div className='flex flex-col-reverse text-center lg:space-x-5 lg:flex lg:flex-row item-center lg:-mx-4 lg:text-left'>
             <div className='lg:px-4 lg:mt-12 '>
@@ -40,8 +40,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </main>
-    </div>
+      </div>
+    </main>
   );
 };
 

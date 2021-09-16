@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Header renders and matches snapshot 1`] = `
-<div
+<header
   class="sticky top-0 z-20 py-2 bg-white md:py-6 md:mb-6 dark:bg-black"
 >
   <div
@@ -17,5 +17,5 @@ exports[`Header renders and matches snapshot 1`] = `
       role="switch"
     />
   </div>
-</div>
+</header>
 `;

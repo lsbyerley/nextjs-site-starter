@@ -11,13 +11,16 @@
     "start": "next start",
     "test": "jest --watchAll --coverage",
     "jest": "TZ=UTC jest",
-    "package:update:check": "npm-check-updates",
-    "package:update:install": "npm-check-updates -u; npm install"
+    "pkg:update:check": "npm-check-updates",
+    "pkg:update:install": "npm-check-updates -u; npm install",
+    "cy:open-only": "cypress open",
+    "cy:run-only": "cypress run",
+    "cy:open": "start-server-and-test dev 3000 cy:open-only",
+    "cy:run": "start-server-and-test dev 3000 cy:run-only"
   },
   "dependencies": {
     "next": "latest",
     "next-themes": "0.0.15",
-    "npm-check-updates": "11.8.5",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
@@ -27,11 +30,14 @@
     "@testing-library/user-event": "13.2.1",
     "autoprefixer": "10.3.4",
     "babel-jest": "27.1.1",
+    "cypress": "8.4.0",
     "identity-obj-proxy": "3.0.0",
     "jest": "27.1.1",
-    "node-mocks-http": "^1.10.1",
+    "node-mocks-http": "1.10.1",
+    "npm-check-updates": "11.8.5",
     "postcss": "8.3.6",
     "react-test-renderer": "17.0.2",
+    "start-server-and-test": "1.14.0",
     "tailwindcss": "2.2.15"
   }
 }
