@@ -13,5 +13,10 @@ describe('Index', () => {
 
     // The home page should contain an h1 with "Hey there,"
     cy.get('h1').contains('Hey there,');
+
+    // Toggles the color theme
+    // cy.get('button[role="switch"]').click();
+
+    // cy.get('button[role="switch"]').should('have.class', 'dark');
   });
 });
